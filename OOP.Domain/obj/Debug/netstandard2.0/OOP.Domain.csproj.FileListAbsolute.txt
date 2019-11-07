@@ -1,0 +1,9 @@
+C:\Users\kostasc\source\repos\OOP\OOP.Domain\bin\Debug\netstandard2.0\OOP.Domain.deps.json
+C:\Users\kostasc\source\repos\OOP\OOP.Domain\bin\Debug\netstandard2.0\OOP.Domain.dll
+C:\Users\kostasc\source\repos\OOP\OOP.Domain\bin\Debug\netstandard2.0\OOP.Domain.pdb
+C:\Users\kostasc\source\repos\OOP\OOP.Domain\obj\Debug\netstandard2.0\OOP.Domain.csprojAssemblyReference.cache
+C:\Users\kostasc\source\repos\OOP\OOP.Domain\obj\Debug\netstandard2.0\OOP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kostasc\source\repos\OOP\OOP.Domain\obj\Debug\netstandard2.0\OOP.Domain.AssemblyInfoInputs.cache
+C:\Users\kostasc\source\repos\OOP\OOP.Domain\obj\Debug\netstandard2.0\OOP.Domain.AssemblyInfo.cs
+C:\Users\kostasc\source\repos\OOP\OOP.Domain\obj\Debug\netstandard2.0\OOP.Domain.dll
+C:\Users\kostasc\source\repos\OOP\OOP.Domain\obj\Debug\netstandard2.0\OOP.Domain.pdb

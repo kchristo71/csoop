@@ -1,0 +1,4 @@
+C:\Users\kostasc\source\repos\OOP\OOP.DL\obj\Debug\netstandard2.0\OOP.DL.csprojAssemblyReference.cache
+C:\Users\kostasc\source\repos\OOP\OOP.DL\obj\Debug\netstandard2.0\OOP.DL.csproj.CoreCompileInputs.cache
+C:\Users\kostasc\source\repos\OOP\OOP.DL\obj\Debug\netstandard2.0\OOP.DL.AssemblyInfoInputs.cache
+C:\Users\kostasc\source\repos\OOP\OOP.DL\obj\Debug\netstandard2.0\OOP.DL.AssemblyInfo.cs
