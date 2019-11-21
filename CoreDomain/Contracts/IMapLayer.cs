@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP.Domain.Contracts
 {
-    public interface IMapLayer: INameAndId
+    public interface IMapLayer: INameAndId, IBoundingBox
     {
         int LayerType { get; }
     }

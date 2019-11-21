@@ -2,9 +2,7 @@
 
 namespace OOP.Domain.Contracts
 {
-    public interface IMap: INameAndId
+    public interface IMap: INameAndId, IBoundingBox
     {
-        Point SouthWest { get; }
-        Size MapSize { get; }
     }
 }

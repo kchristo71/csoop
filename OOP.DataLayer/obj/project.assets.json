@@ -370,9 +370,21 @@
           }
         }
       },
+      "WindowsBase/4.6.1055": {
+        "type": "package",
+        "compile": {
+          "lib/WindowsBase.dll": {}
+        },
+        "runtime": {
+          "lib/WindowsBase.dll": {}
+        }
+      },
       "OOP.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "WindowsBase": "4.6.1055"
+        },
         "compile": {
           "bin/placeholder/OOP.Domain.dll": {}
         },
@@ -1233,6 +1245,18 @@
         "version.txt"
       ]
     },
+    "WindowsBase/4.6.1055": {
+      "sha512": "1NKRZTcRus8Q1ZPZz9QAucHYHLHmQ3G+MMaFFZyPTDRpEfmIFLo9mtSyO8TZkEJFXaNXvnhenPod4ltd8EOHkg==",
+      "type": "package",
+      "path": "windowsbase/4.6.1055",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/WindowsBase.dll",
+        "windowsbase.4.6.1055.nupkg.sha512",
+        "windowsbase.nuspec"
+      ]
+    },
     "OOP.Domain/1.0.0": {
       "type": "project",
       "path": "../CoreDomain/OOP.Domain.csproj",
@@ -1253,11 +1277,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kostasc\\source\\repos\\OOP\\OOP.DataLayer\\OOP.DataLayer.csproj",
+      "projectUniqueName": "C:\\Users\\kostasc\\Source\\Repos\\csoop\\OOP.DataLayer\\OOP.DataLayer.csproj",
       "projectName": "OOP.DataLayer",
-      "projectPath": "C:\\Users\\kostasc\\source\\repos\\OOP\\OOP.DataLayer\\OOP.DataLayer.csproj",
+      "projectPath": "C:\\Users\\kostasc\\Source\\Repos\\csoop\\OOP.DataLayer\\OOP.DataLayer.csproj",
       "packagesPath": "C:\\Users\\kostasc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kostasc\\source\\repos\\OOP\\OOP.DataLayer\\obj\\",
+      "outputPath": "C:\\Users\\kostasc\\Source\\Repos\\csoop\\OOP.DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1277,8 +1301,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\kostasc\\source\\repos\\OOP\\CoreDomain\\OOP.Domain.csproj": {
-              "projectPath": "C:\\Users\\kostasc\\source\\repos\\OOP\\CoreDomain\\OOP.Domain.csproj"
+            "C:\\Users\\kostasc\\Source\\Repos\\csoop\\CoreDomain\\OOP.Domain.csproj": {
+              "projectPath": "C:\\Users\\kostasc\\Source\\Repos\\csoop\\CoreDomain\\OOP.Domain.csproj"
             }
           }
         }
@@ -1310,5 +1334,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WindowsBase 4.6.1055' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
+      "libraryId": "WindowsBase",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
 }
